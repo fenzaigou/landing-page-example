@@ -212,6 +212,7 @@
   border-radius: 50lh;
   padding: var(--fs-100) var(--fs-400);
   box-shadow: 0rem 1rem 1rem -1rem var(--clr-neutral-200);
+  -webkit-tap-highlight-color: transparent;
 }
 .button:is(:hover, :active) {
   background-color: var(--clr-accent-500);
@@ -560,6 +561,7 @@ footer {
 }
 .footer-search input:is(:focus, :active, :focus-visible) {
   border: none;
+  outline: none;
 }
 
 .footer-nav {
